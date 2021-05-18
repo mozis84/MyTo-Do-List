@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM EXercises</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/2b36c0fef9.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+	<!-- SECTION 1: HEADER -->
+	<div id="container">
+		<div id= "heading">
+			<h1>Shopping list</h1>
+
+			<!-- TASK INPUT -->
+			<input id="userinput" type="text" placeholder="task" name="">
+			<!-- DESCRIPTION INPUT -->
+			<input id="userinput2" type="text" placeholder="enter description" name="">
+			<!-- ENTER BUTTON -->
+			<button id="enter">Enter</button>
+
+		</div>
+		<!-- SECTION 2: LIST (predefinied) -->
+		<ul id= "MyList">
+			<div class="info2">
+				<li>Beans </li>
+				<span></span>
+			</div>
+
+			<div class="info2">
+				<li>Coffee </li>
+				<span></span>
+			</div>
+
+			<div class="info2">
+				<li>Prune juice </li>
+				<span></span>
+			</div>
+
+			<div class="info2">
+				<li> cabbages</li>
+				<span></span>
+			</div>
+
+			<div class="info2">
+				<li>Toilet paper Rolls</li>
+				<span>I think Im going to need it!!</span>
+			</div>
+		</ul>
+
+		<button onclick="Clear()" id="deleter">Clear</button>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
